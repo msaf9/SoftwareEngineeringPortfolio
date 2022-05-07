@@ -25,7 +25,6 @@ export class AppComponent {
       if (this.visitedRoute !== this.router.url) {
         this.visitedRoute = this.router.url;
       }
-      // this.isVisited(this.visitedRoute);
     });
   }
 
