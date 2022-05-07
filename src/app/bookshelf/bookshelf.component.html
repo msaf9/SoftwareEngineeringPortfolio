@@ -104,12 +104,32 @@
             </ul>
         </div>
     </div>
+    <div class="row">
+        <p class="text-center pointer-cursor" (click)="toggleShow()">Show Paused ⏸</p>
+        <div *ngIf="isShown" class="row container-fluid display-inline" id="divshow">
+            <ul class="list-group list-group-numbered">
+                <li class="list-group-item">
+                    <span class="text-decoration-underline">THINK STRAIGHT: Change Your Thoughts, Change Your
+                        Life</span>
+                    by Darius Foroux
+                </li>
+                <li class="list-group-item">
+                    <span class="text-decoration-underline">80/20 Your Life! How to Get More Done with Less Effort and
+                        Change Your Life in
+                        the Process!</span> by Damon Zahariades
+                </li>
+            </ul>
+
+        </div>
+    </div>
 </div>
-<br class="d-md-none">
-<blockquote class="blockquote text-center">
-    <footer class="blockquote-footer">*<cite title="The list is in the order I've read."> The list is in the order I've
-            read.</cite></footer>
-    <footer class="blockquote-footer">**<cite title="I like this way of list order (lazy enough to sort in alphabetical
-        order)."> I like this way of list order (lazy enough to sort in alphabetical
-            order or write a few lines of code to sort).</cite></footer>
-</blockquote>
+
+<div class="alert alert-light text-center" role="alert">
+    <p> * The list is in the
+        order I've
+        read.</p>
+    <p>
+        ** I like this way of list order (lazy enough to sort in alphabetical
+        order or write a few lines of code to sort).
+    </p>
+</div>

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BookshelfComponent implements OnInit {
 
+  isShown: boolean = false; // hidden by default
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleShow(): void {
+    this.isShown = !this.isShown;
   }
 
 }
