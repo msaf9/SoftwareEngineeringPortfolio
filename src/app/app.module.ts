@@ -10,6 +10,7 @@ import { WritingsComponent } from './writings/writings.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { BookshelfComponent } from './bookshelf/bookshelf.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     WritingsComponent,
     HobbiesComponent,
     BookshelfComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SitemapComponent
   ],
   imports: [
     BrowserModule,

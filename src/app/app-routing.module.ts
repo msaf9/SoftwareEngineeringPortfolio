@@ -5,6 +5,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
 import { WritingsComponent } from './writings/writings.component';
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'writings', component: WritingsComponent },
   { path: 'hobbies', component: HobbiesComponent },
   { path: 'bookshelf', component: BookshelfComponent },
+  { path: 'sitemap', component: SitemapComponent },
   { path: "**", component: PageNotFoundComponent }
 ];
 
