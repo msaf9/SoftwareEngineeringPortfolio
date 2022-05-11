@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   title = 'Portfolio';
 
   visitedRoute = '/';
-  URLS = ['/home', '/portfolio', '/writings', '/hobbies', '/bookshelf'];
+  URLS = ['/home', '/portfolio', '/writings', '/hobbies', '/bookshelf', '/sitemap'];
 
   constructor(private router: Router) {
 
