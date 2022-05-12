@@ -29,7 +29,6 @@ export class AppComponent implements OnInit {
   }
 
   isVisited(url: string): boolean {
-    console.log(this.URLS.every(urls => urls === url));
     return this.URLS.every(urls => urls !== url);
   }
 
