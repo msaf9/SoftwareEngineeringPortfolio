@@ -8,9 +8,9 @@ describe('BookshelfComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BookshelfComponent ]
+      declarations: [BookshelfComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
@@ -21,5 +21,13 @@ describe('BookshelfComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('test toggleShow', () => {
+    component.showHide = false;
+    component.isShown = true;
+    component.toggleShow();
+    expect(component.showHide).toBeTruthy();
+    expect(component.isShown).toBeFalsy();
   });
 });
