@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BookshelfComponent implements OnInit {
 
   isShown: boolean = false; // hidden by default
+  showHide: boolean = true; // show by default
 
   constructor() { }
 
@@ -15,6 +16,7 @@ export class BookshelfComponent implements OnInit {
   }
 
   toggleShow(): void {
+    this.showHide = !this.showHide;
     this.isShown = !this.isShown;
   }
 

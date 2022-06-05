@@ -105,7 +105,7 @@
         </div>
     </div>
     <div class="row">
-        <p class="text-center pointer-cursor" (click)="toggleShow()">Show Paused ⏸</p>
+        <p class="text-center pointer-cursor" (click)="toggleShow()">{{showHide ? 'Show' : 'Hide'}} Paused ⏸</p>
         <div *ngIf="isShown" class="row container-fluid display-inline" id="divshow">
             <ul class="list-group list-group-numbered">
                 <li class="list-group-item">
