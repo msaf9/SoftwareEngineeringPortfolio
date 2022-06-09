@@ -11,6 +11,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { BookshelfComponent } from './bookshelf/bookshelf.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
+import { LazyImageDirectiveDirective } from './portfolio/lazy-image-directive.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SitemapComponent } from './sitemap/sitemap.component';
     HobbiesComponent,
     BookshelfComponent,
     PageNotFoundComponent,
-    SitemapComponent
+    SitemapComponent,
+    LazyImageDirectiveDirective
   ],
   imports: [
     BrowserModule,
