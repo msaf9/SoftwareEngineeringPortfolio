@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+/**
+ * component
+ */
 @Component({
   selector: 'app-sitemap',
   templateUrl: './sitemap.component.html',
@@ -7,8 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SitemapComponent implements OnInit {
 
+  /**
+   * constructor
+   */
   constructor() { }
 
+  /**
+   * ngOnInit
+   */
   ngOnInit(): void {
   }
 
