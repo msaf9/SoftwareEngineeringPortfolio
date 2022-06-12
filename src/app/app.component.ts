@@ -1,6 +1,3 @@
-/**
- * Import statements
- */
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 
@@ -12,10 +9,6 @@ import { NavigationEnd, Router } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
-/**
- * class AppComponent
- */
 export class AppComponent implements OnInit {
 
   /**
@@ -42,7 +35,7 @@ export class AppComponent implements OnInit {
   }
 
   /**
-   * ngOnInit
+   * ngOnInit is invoked only once when the directive is instantiated.
    */
   ngOnInit(): void {
     /**
@@ -53,6 +46,9 @@ export class AppComponent implements OnInit {
         this.visitedRoute = this.router.url;
       }
       this.visitedRoute = this.router.url;
+      /**
+       * Fetch the value of Router URL
+       */
       if (this.visitedRoute !== this.router.url) {
         this.visitedRoute = this.router.url;
       }

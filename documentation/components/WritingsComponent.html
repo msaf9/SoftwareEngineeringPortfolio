@@ -68,6 +68,13 @@
 </p>
 
 
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>WritingsComponent</p>
+
+    </p>
 
 
     <p class="comment">
@@ -160,13 +167,13 @@
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/writings/writings.component.ts:8</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/writings/writings.component.ts:11</a></div>
                             </td>
                         </tr>
 
                 <tr>
                     <td class="col-md-4">
-                            <div class="io-description"><p>constructor</p>
+                            <div class="io-description"><p>constructor is put into use to inject dependencies into the component class.</p>
 </div>
                     </td>
                 </tr>
@@ -203,15 +210,15 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="18"
-                            class="link-to-prism">src/app/writings/writings.component.ts:18</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="21"
+                            class="link-to-prism">src/app/writings/writings.component.ts:21</a></div>
                 </td>
             </tr>
 
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-description"><p>ngOnInit</p>
+                    <div class="io-description"><p>ngOnInit is invoked only once when the directive is instantiated.</p>
 </div>
 
                     <div class="io-description">
@@ -230,6 +237,9 @@
     <div class="tab-pane fade  tab-source-code" id="c-source">
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
 
+/**
+ * WritingsComponent
+ */
 @Component({
   selector: &#x27;app-writings&#x27;,
   templateUrl: &#x27;./writings.component.html&#x27;,
@@ -238,12 +248,12 @@
 export class WritingsComponent implements OnInit {
 
   /**
-   * constructor
+   * constructor is put into use to inject dependencies into the component class.
    */
   constructor() { }
 
   /**
-   * ngOnInit
+   * ngOnInit is invoked only once when the directive is instantiated.
    */
   ngOnInit(): void {
   }

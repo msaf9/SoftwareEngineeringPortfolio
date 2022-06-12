@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+/**
+ * WritingsComponent
+ */
 @Component({
   selector: 'app-writings',
   templateUrl: './writings.component.html',
@@ -8,12 +11,12 @@ import { Component, OnInit } from '@angular/core';
 export class WritingsComponent implements OnInit {
 
   /**
-   * constructor
+   * constructor is put into use to inject dependencies into the component class.
    */
   constructor() { }
 
   /**
-   * ngOnInit
+   * ngOnInit is invoked only once when the directive is instantiated.
    */
   ngOnInit(): void {
   }

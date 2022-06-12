@@ -68,6 +68,13 @@
 </p>
 
 
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>HobbiesComponent</p>
+
+    </p>
 
 
     <p class="comment">
@@ -160,10 +167,16 @@
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/hobbies/hobbies.component.ts:8</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/hobbies/hobbies.component.ts:11</a></div>
                             </td>
                         </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>constructor is put into use to inject dependencies into the component class.</p>
+</div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 </section>
@@ -197,14 +210,16 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="12"
-                            class="link-to-prism">src/app/hobbies/hobbies.component.ts:12</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="21"
+                            class="link-to-prism">src/app/hobbies/hobbies.component.ts:21</a></div>
                 </td>
             </tr>
 
 
             <tr>
                 <td class="col-md-4">
+                    <div class="io-description"><p>ngOnInit is invoked only once when the directive is instantiated.</p>
+</div>
 
                     <div class="io-description">
                         <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
@@ -222,6 +237,9 @@
     <div class="tab-pane fade  tab-source-code" id="c-source">
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
 
+/**
+ * HobbiesComponent
+ */
 @Component({
   selector: &#x27;app-hobbies&#x27;,
   templateUrl: &#x27;./hobbies.component.html&#x27;,
@@ -229,8 +247,14 @@
 })
 export class HobbiesComponent implements OnInit {
 
+  /**
+   * constructor is put into use to inject dependencies into the component class.
+   */
   constructor() { }
 
+  /**
+  * ngOnInit is invoked only once when the directive is instantiated.
+  */
   ngOnInit(): void {
   }
 
