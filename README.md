@@ -2,11 +2,20 @@
 Portfolio Project.
 
 ## Table of contents
-1. Introduction
-2. Technologies
-3. Project status
-4. Installation
-5. License
+- [Portfolio](#portfolio)
+  - [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+    - [Development server](#development-server)
+    - [Code scaffolding](#code-scaffolding)
+    - [Build](#build)
+    - [Running unit tests](#running-unit-tests)
+    - [Running end-to-end tests](#running-end-to-end-tests)
+    - [Further help](#further-help)
+  - [Technologies](#technologies)
+  - [Project status](#project-status)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+  - [License](#license)
 
 ## Introduction
 This project is generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
