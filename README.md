@@ -1,9 +1,7 @@
 # Portfolio
 Portfolio Project.
 
-## Table of contents
 - [Portfolio](#portfolio)
-  - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
     - [Development server](#development-server)
     - [Code scaffolding](#code-scaffolding)
