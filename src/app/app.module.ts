@@ -12,6 +12,7 @@ import { BookshelfComponent } from './bookshelf/bookshelf.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { LazyImageDirectiveDirective } from './portfolio/lazy-image-directive.directive';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LazyImageDirectiveDirective } from './portfolio/lazy-image-directive.di
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
