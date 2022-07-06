@@ -1,6 +1,4 @@
 <app-navbar *ngIf="offNavbarOnPageNotFound()"></app-navbar>
 <div class="router-app">
-    <main [@routeAnimations]="prepareRoute(outlet)" class="content">
-        <router-outlet #outlet="outlet"></router-outlet>
-    </main>
+    <router-outlet #outlet="outlet"></router-outlet>
 </div>

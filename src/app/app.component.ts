@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
-import { slider, transformer, fader, stepper } from '@angular/animations'
+
 /**
  * AppComponent
  */
