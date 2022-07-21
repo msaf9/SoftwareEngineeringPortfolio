@@ -13,6 +13,7 @@ Portfolio Project.
   - [Project status](#project-status)
   - [Installation](#installation)
     - [Get repository](#get-repository)
+    - [URL](#url)
   - [License](#license)
 
 ## Introduction
@@ -38,6 +39,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Technologies
 - Angular
+- Firebase
 
 ## Project status
 > **WIP**
@@ -48,5 +50,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 git https://github.com/msaf9/SoftwareEngineeringPortfolio.git
 cd SoftwareEngineeringPortfolio
 ```
+### URL
+- Access the app using this [link](https://porfolio-msaf.web.app/).
 
 ## License
