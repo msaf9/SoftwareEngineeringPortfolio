@@ -1,8 +1,12 @@
 .float-left {
-    text-align: left !important;
+  text-align: left !important;
 }
 
 .text-center {
-    display: table;
-    margin: 0 auto;
+  display: table;
+  margin: 0 auto;
+}
+
+.row {
+  padding-bottom: 20px;
 }
