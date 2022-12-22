@@ -1,34 +1,75 @@
 <nav class="navbar navbar-expand-lg navbar-light font-family">
-    <div class="container-fluid">
-        <a href="/home">
-            <img class="avatar-image" src="../../assets/Open Peeps - Avatar and Backdrop.png" alt="Avatar">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/home" data-toggle="collapse" data-target=".navbar-collapse">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/portfolio" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/writings" data-toggle="collapse" data-target=".navbar-collapse">Writings</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/hobbies" data-toggle="collapse" data-target=".navbar-collapse">Hobbies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/bookshelf" data-toggle="collapse" data-target=".navbar-collapse">Bookshelf</a>
-                </li>
-                <!-- <li class="nav-item">
+  <div class="container-fluid">
+    <a href="/home">
+      <img
+        class="avatar-image"
+        src="../../assets/Open Peeps - Avatar and Backdrop.png"
+        alt="Avatar"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item" routerLinkActive="active">
+          <a
+            class="nav-link"
+            routerLink="/home"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a
+            class="nav-link"
+            routerLink="/portfolio"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a
+            class="nav-link"
+            routerLink="/writings"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+            >Writings</a
+          >
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a
+            class="nav-link"
+            routerLink="/hobbies"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+            >Hobbies</a
+          >
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a
+            class="nav-link"
+            routerLink="/bookshelf"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+            >Bookshelf</a
+          >
+        </li>
+        <!-- <li class="nav-item">
                     <a class="nav-link pointer-cursor"
                         (click)="navigateToUrl('https://drive.google.com/file/d/1GwWOmqXaXU1eNWvFovibZ_bGNuRG4-FQ/view?usp=sharing')">Resume</a>
                 </li> -->
-            </ul>
-        </div>
+      </ul>
     </div>
+  </div>
 </nav>
