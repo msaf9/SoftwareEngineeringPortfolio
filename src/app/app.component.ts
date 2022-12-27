@@ -7,10 +7,9 @@ import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-
   /**
    * Value of the title
    */
@@ -22,17 +21,15 @@ export class AppComponent implements OnInit {
   visitedRoute = '/';
 
   /**
-   * URLs with active Navigation bar 
+   * URLs with active Navigation bar
    */
-  URLS = ['/home', '/portfolio', '/writings', '/hobbies', '/bookshelf', '/sitemap'];
+  URLS = ['/home', '/portfolio', '/writings', '/hobbies', '/bookshelf'];
 
   /**
-   * 
-   * @param router 
+   *
+   * @param router
    */
-  constructor(private router: Router) {
-
-  }
+  constructor(private router: Router) {}
 
   /**
    * ngOnInit is invoked only once when the directive is instantiated.
@@ -56,20 +53,19 @@ export class AppComponent implements OnInit {
   }
 
   /**
-   * 
-   * @param url 
-   * @returns boolean 
+   *
+   * @param url
+   * @returns boolean
    */
   isVisited(url: string): boolean {
-    return this.URLS.every(urls => urls !== url);
+    return this.URLS.every((urls) => urls !== url);
   }
 
   /**
-   * 
+   *
    * @returns boolean
    */
   offNavbarOnPageNotFound(): boolean {
     return !this.isVisited(this.visitedRoute);
   }
-
 }
