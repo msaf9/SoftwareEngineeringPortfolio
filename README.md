@@ -1,27 +1,26 @@
-# Portfolio
+<h1> Portfolio </h1>
 
 Portfolio Project.
 
-- [Portfolio](#portfolio)
-  - [Introduction](#introduction)
-    - [Development server](#development-server)
-    - [Code scaffolding](#code-scaffolding)
-    - [Build](#build)
-    - [Running unit tests](#running-unit-tests)
-    - [Running end-to-end tests](#running-end-to-end-tests)
-    - [Further help](#further-help)
-    - [Deployment steps](#deployment-steps)
-      - [Build app](#build-app)
-      - [Install firebase tools](#install-firebase-tools)
-      - [Login using firebase cli](#login-using-firebase-cli)
-      - [Initialize the project](#initialize-the-project)
-      - [Deploy to firebase](#deploy-to-firebase)
-  - [Technologies](#technologies)
-  - [Project status](#project-status)
-  - [Installation](#installation)
-    - [Get repository](#get-repository)
-    - [URL](#url)
-  - [License](#license)
+- [Introduction](#introduction)
+  - [Development server](#development-server)
+  - [Code scaffolding](#code-scaffolding)
+  - [Build](#build)
+  - [Running unit tests](#running-unit-tests)
+  - [Running end-to-end tests](#running-end-to-end-tests)
+  - [Further help](#further-help)
+  - [Deployment steps](#deployment-steps)
+    - [Build app](#build-app)
+    - [Install firebase tools](#install-firebase-tools)
+    - [Login using firebase cli](#login-using-firebase-cli)
+    - [Initialize the project](#initialize-the-project)
+    - [Deploy to firebase](#deploy-to-firebase)
+- [Technologies](#technologies)
+- [Project status](#project-status)
+- [Installation](#installation)
+  - [Get repository](#get-repository)
+  - [URL](#url)
+- [License](#license)
 
 ## Introduction
 
