@@ -1,5 +1,43 @@
 <div class="container">
-  <h1>Projects</h1>
+  <nav class="navbar navbar-expand-lg navbar-light font-family">
+    <div class="container-fluid">
+      <h1>Projects</h1>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#portfolioNavbar"
+        aria-controls="portfolioNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse float-right" id="portfolioNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item" routerLinkActive="active">
+            <a
+              class="nav-link"
+              routerLink="/home"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+              >Academic</a
+            >
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a
+              class="nav-link"
+              routerLink="/portfolio"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+              >Portfolio</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div class="row">
     <div class="col-sm-6 d-flex align-items-center">
       <article>
