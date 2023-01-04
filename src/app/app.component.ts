@@ -23,7 +23,15 @@ export class AppComponent implements OnInit {
   /**
    * URLs with active Navigation bar
    */
-  URLS = ['/home', '/portfolio', '/writings', '/hobbies', '/bookshelf'];
+  URLS = [
+    '/home',
+    '/portfolio',
+    '/writings',
+    '/hobbies',
+    '/bookshelf',
+    '/portfolio/sideline',
+    '/portfolio/academic',
+  ];
 
   /**
    *

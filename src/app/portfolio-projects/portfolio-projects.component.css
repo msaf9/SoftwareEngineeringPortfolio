@@ -1,0 +1,30 @@
+.float-left {
+  text-align: left !important;
+}
+
+.text-center {
+  display: table;
+  margin: 0 auto;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+.font-family {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: large;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 0% 0% 0% 0%;
+}
+
+.nav-item {
+  padding-right: 10%;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
