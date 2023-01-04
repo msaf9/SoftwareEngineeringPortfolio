@@ -118,6 +118,6 @@
   },
   "defaultProject": "Portfolio",
   "cli": {
-    "defaultCollection": "@angular-eslint/schematics"
+    "defaultCollection": "@ionic/angular-toolkit"
   }
 }
