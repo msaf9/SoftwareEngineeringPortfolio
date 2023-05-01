@@ -32,7 +32,8 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4",
-    "decode-uri-component": ">=0.2.1"
+    "decode-uri-component": ">=0.2.1",
+    "engine.io": ">=6.2.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.3.1",
