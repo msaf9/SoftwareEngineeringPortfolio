@@ -96,8 +96,8 @@ firebase deploy
 ### Get repository
 
 ```git
-git https://github.com/msaf9/SoftwareEngineeringPortfolio.git
-cd SoftwareEngineeringPortfolio
+git https://github.com/msaf9/software-engineering-portfolio.git
+cd software-engineering-portfolio
 ```
 
 ### URL
