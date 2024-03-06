@@ -2,6 +2,8 @@
 
 Portfolio Project.
 
+<h2>Table of contents</h2>
+
 - [Introduction](#introduction)
   - [Development server](#development-server)
   - [Code scaffolding](#code-scaffolding)
@@ -15,7 +17,7 @@ Portfolio Project.
     - [Login using firebase cli](#login-using-firebase-cli)
     - [Initialize the project](#initialize-the-project)
     - [Deploy to firebase](#deploy-to-firebase)
-- [Technologies](#technologies)
+- [Technology Stack](#technology-stack)
 - [Project status](#project-status)
 - [Installation](#installation)
   - [Get repository](#get-repository)
@@ -82,7 +84,7 @@ firebase init
 firebase deploy
 ```
 
-## Technologies
+## Technology Stack
 
 - Angular
 - Firebase
