@@ -33,7 +33,7 @@
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4",
     "decode-uri-component": ">=0.2.1",
-    "engine.io": ">=6.2.1",
+    "engine.io": ">=6.5.5",
     "minimatch": ">=3.0.5",
     "json5": ">=1.0.2"
   },
